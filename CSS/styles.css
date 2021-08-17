@@ -1,0 +1,159 @@
+body {
+  font-family: "Poppins";
+  font-style: normal; }
+
+h1 {
+  color: rgba(202, 57, 57, 0.89);
+  text-align: center; }
+
+h5 {
+  color: black;
+  text-align: center;
+  padding-top: 40px; }
+
+p {
+  color: grey; }
+
+.topNav {
+  overflow: hidden;
+  width: 100%;
+  display: table;
+  text-align: center;
+  padding-top: 25px;
+  color: #916A5F;
+  background-color: #FFFFFF;
+  height: 80px; }
+
+.topNav a {
+  float: inherit;
+  display: inline-table;
+  color: #916A5F;
+  text-align: center;
+  padding-top: 30px;
+  padding-inline: 25px;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 17px; }
+
+.topNav a:hover {
+  background-color: #FFFFFF;
+  color: #CC9966; }
+
+.topNav a.active {
+  color: #CC9966; }
+
+ul {
+  list-style: none;
+  font-size: 0; }
+
+li {
+  display: inline-block;
+  font-size: 17px; }
+
+ul ul {
+  position: absolute;
+  display: none;
+  width: 10%;
+  background-color: whitesmoke;
+  z-index: 1; }
+
+ul ul li {
+  display: block;
+  width: 100%;
+  float: left;
+  text-align: left; }
+
+ul li:hover ul {
+  display: block; }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px; }
+
+/*BODY*/
+.imageBody {
+  width: 100%; }
+
+h2 {
+  float: right;
+  width: 100%;
+  font-family: "Poppins";
+  color: #916A5F;
+  font-size: 50px;
+  text-align: center;
+  display: inline;
+  padding-top: 100px; }
+
+.textoBody {
+  float: none;
+  display: inline;
+  width: 50px;
+  font-family: "Poppins";
+  font-size: 25px;
+  text-align: center;
+  color: #CE9D6B; }
+
+.gridLinea {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 25px; }
+
+.linea {
+  height: 150px;
+  width: 3px;
+  background-color: #CC9966; }
+
+.boxCafes {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: auto auto auto;
+  grid-column: auto;
+  justify-items: center;
+  align-items: center; }
+
+/*FOOTER*/
+i {
+  size: 15px;
+  color: grey; }
+
+h6 {
+  color: grey;
+  font-size: 17px; }
+
+.conTact i {
+  color: grey; }
+
+.text-white {
+  color: grey; }
+
+.text-whiteh {
+  text-decoration: none;
+  color: grey; }
+
+.form {
+  display: flex;
+  justify-content: left;
+  align-content: left;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+ 

@@ -156,4 +156,17 @@ h6 {
   height: 100%;
   width: 100%;
   position: absolute; }
- 
+
+.parrafo-foto {
+  margin-left: 350px;
+  padding-top: 50px;
+  text-align-last: left; }
+
+.img-Paulie {
+  float: left;
+  width: 25%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.about {
+  float: left; }

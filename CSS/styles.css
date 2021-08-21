@@ -36,7 +36,6 @@ p {
   font-size: 17px; }
 
 .topNav a:hover {
-  background-color: #FFFFFF;
   color: #CC9966; }
 
 .topNav a.active {
@@ -53,15 +52,9 @@ li {
 ul ul {
   position: absolute;
   display: none;
-  width: 10%;
+  text-align: left;
   background-color: whitesmoke;
   z-index: 1; }
-
-ul ul li {
-  display: block;
-  width: 100%;
-  float: left;
-  text-align: left; }
 
 ul li:hover ul {
   display: block; }

@@ -223,3 +223,17 @@ div.desc {
   content: "";
   display: table;
   clear: both; }
+
+.responsive {
+  color: #777; }
+
+.Eventos {
+  float: right;
+  width: 100%;
+  font-family: "Poppins";
+  color: #916A5F;
+  font-size: 50px;
+  text-align: center;
+  display: inline;
+  padding-top: 50px;
+  padding-bottom: 25px; }
